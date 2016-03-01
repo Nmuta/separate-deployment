@@ -16,8 +16,8 @@ Here is a graphic that outlines what we will be doing.
 project-root
 .git
 * client (contains angular app)
-  ** contains firebase.json
-* server (contains express app)
+<li> contains firebase.json</li>
+<li>server (contains express app)  </li>
 package.json
 
 
