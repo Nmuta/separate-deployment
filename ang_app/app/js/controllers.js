@@ -1,6 +1,7 @@
 app.controller("MainController", function($scope, $http, CatService){
   $scope.cats = "the cat gang...";
 
+  console.log("we are starting the requests ...");
   CatService.getCats().then(function(payload){
     console.log("we are getting all Cats");
     $scope.cat_collection = payload.data;
