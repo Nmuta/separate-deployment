@@ -13,8 +13,11 @@ The CONNECTIONS are the most important thing, because a good deal of the process
 
 Here is a graphic that outlines what we will be doing.  
 
+## one config option
 ![](https://github.com/Nmuta/separate-deployment/blob/master/layout1.png)
+## another config option
 ![](https://github.com/Nmuta/separate-deployment/blob/master/layout2.png)
+## another config option:  anything you can get to work ! 
 
 
 
