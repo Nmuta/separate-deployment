@@ -8,7 +8,19 @@
 
 The CONNECTIONS are the most important thing, because a good deal of the process includes understanding how to set up and deploy your secret files ( environmental variables, etc. ) and using those to connect to a remote database. 
 
-* Becasue of this, I have included a couple of secret files for you , so you can see where these files are located.  To get this working on your end, you will have to modify my personal credentials files to get it working on your machine * . 
+* Because of this, I have included a couple of secret files for you , so you can see where these files are located.  To get this working on your end, you will have to modify my personal credentials files to get it working on your machine * . 
+
+
+Here is a graphic that outlines what we will be doing.  
+
+project-root
+.git
+* client (contains angular app)
+  ** contains firebase.json
+* server (contains express app)
+package.json
+
+
 
 
 
