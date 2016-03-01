@@ -1,6 +1,6 @@
 ### 🚀 Separation Anxiety ! 
 
-
+## before you begin, you may want to add the CORS extension to Chrome. 
 
 ### This repo is designed to help you think through designing an app that has a back end API consumed by a front-end Angular app. 
 
