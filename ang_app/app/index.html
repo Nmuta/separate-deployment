@@ -4,31 +4,19 @@
     <meta charset="utf-8">
     <title>Consumer app</title>
   </head>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js">
-  </script>
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/controllers.js"></script>
-  <script type="text/javascript" src="js/services.js"></script>
   <body>
     This app will consume my api.
 
-    Here are all cats.
-    <div ng-controller="MainController">
-      <div ng-repeat="cat in cat_collection">
-
-        <li>{{cat.name}}</li>
-        <li>{{cat.profile}}</li>
-        <li>{{cat.active}}</li>
-        <hr>
-      </div>
-
-      <p>
-        Here is a single cat :
-        {{singleCat}}
-      </p>
-
+    <div ng-repeat="cat in cat_collection">
+      <li>{{cat.name}}</li>
+      <li>{{cat.profile}}</li>
+      <li>{{cat.age}}</li>
+      <li>{{cat.active}}</li>
+      <hr>
     </div>
-
-
   </body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/controllers.js"></script>
+  <script type="text/javascript" src="js/services.js"></script>
 </html>
