@@ -13,12 +13,9 @@ The CONNECTIONS are the most important thing, because a good deal of the process
 
 Here is a graphic that outlines what we will be doing.  
 
-project-root
-.git
-* client (contains angular app)
-<li> contains firebase.json</li>
-<li>server (contains express app)  </li>
-package.json
+![](https://github.com/Nmuta/separate-deployment/blob/master/layout1.png)
+![](https://github.com/Nmuta/separate-deployment/blob/master/layout2.png)
+
 
 
 
